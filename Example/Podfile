@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'module_bluetooth_Example' do
+  pod 'module_bluetooth', :path => '../'
+
+  target 'module_bluetooth_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
