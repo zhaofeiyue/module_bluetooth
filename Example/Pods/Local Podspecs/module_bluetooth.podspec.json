@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of module_bluetooth.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1105331174@qq.com/module_bluetooth",
+  "homepage": "https://github.com/zhaofeiyue/module_bluetooth",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1105331174@qq.com": "1105331174@qq.com"
+    "zhaofeiyue": "1105331174@qq.com"
   },
   "source": {
-    "git": "https://github.com/1105331174@qq.com/module_bluetooth.git",
+    "git": "https://github.com/zhaofeiyue/module_bluetooth.git",
     "tag": "0.1.0"
   },
   "platforms": {

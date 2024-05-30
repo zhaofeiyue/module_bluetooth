@@ -7,57 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030FE4720091957EC6E43E7345E1853E /* module_bluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDCC3F8B2E01534C6D6EB3508856865 /* module_bluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E7655F2DFFD3E601F711F163BC391F /* ModuleBluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64066CE8D0323E1F7086F4CEC27FD7E2 /* ModuleBluetoothVC.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		2AFABBF414907D4C2BE893F99014E584 /* module_bluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC787E74673853F044BB8670E00AB15 /* module_bluetooth-dummy.m */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		36E428F823359A20EEAD8CFCA28852CB /* ModuleBluetoothVC.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BEBFB65EE3A6228AEEFB4BAA4B264D /* ModuleBluetoothVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4124663CCA77E57B8407FF8861182BA8 /* Pods-module_bluetooth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B92D0BAD25BD82669DD3DA496321D7 /* Pods-module_bluetooth_Tests-dummy.m */; };
 		44F61AA3FBE88FE8ABED6ECAA598CD36 /* Pods-module_bluetooth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34655582950D48EECDFD0CD6A156EA2 /* Pods-module_bluetooth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D794BB1F74D1075DABF9D8704BF3C39 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 786577698D2049E673DC07180F1F5A48 /* ReplaceMe.m */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64686FCB83EEF60944F65CBD993C28DF /* module_bluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0736A52AD4295A47C6EC62DDDA1D89 /* module_bluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8B96140027D0E836D353AB72CDAE3CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		9DD8B8BD821C6D92F57729314A8FDF6F /* Pods-module_bluetooth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9BAAC38E4930CFA453E677ACFE8D16 /* Pods-module_bluetooth_Example-dummy.m */; };
 		AC077B0E29C9A04489ADFDBA1AA2BAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		BD7F0FD578A22E00440EA999A98FF56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		BDBF52B1DBE0291B75CFC48D4FCE5716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		BF9A7289A9F8893745B709D5B8E68FDB /* ModuleBluetoothVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F38C3108BD568D5B49890CA1AED9F4 /* ModuleBluetoothVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		F918A779F453EC628CA38DB880729AA9 /* Pods-module_bluetooth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C96F956782C67EC930371A68F686C5 /* Pods-module_bluetooth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F94D0CAFB22B47D903092FB17C630D95 /* ModuleBluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EF2FCAB30F1E1FE3DB76DC416A573 /* ModuleBluetoothVC.m */; };
+		FB6F4B1AB4D6A985B00176C03F8BD375 /* module_bluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC36675F5C24C97DA9381872B9B2280D /* module_bluetooth-dummy.m */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C068CDEEF1F6B6328467025C2977B71E /* PBXContainerItemProxy */ = {
+		6E30B94B5A52F18E683338AAD06DD662 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DA8EB63FFEC307335FB53DBCF544267;
 			remoteInfo = module_bluetooth;
 		};
-		CE43AC6B540299D1ADCBFA96773FE1A5 /* PBXContainerItemProxy */ = {
+		B9823692046730183E906F74F4F73523 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5755A49EC94169CABC6C88E9308E0172;
 			remoteInfo = "Pods-module_bluetooth_Example";
 		};
-		CFC44DE9C2A63515E55BDAF3F2B83E38 /* PBXContainerItemProxy */ = {
+		ED8F1799FBCF48E5501054858AA15948 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -67,7 +66,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DDCC3F8B2E01534C6D6EB3508856865 /* module_bluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "module_bluetooth-umbrella.h"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		102BE38549A2D99075BA1CF60E07745C /* module_bluetooth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = module_bluetooth; path = module_bluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B92D0BAD25BD82669DD3DA496321D7 /* Pods-module_bluetooth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-module_bluetooth_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -79,27 +77,27 @@
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		30DD25C089D5E738CFBB9F617BF9BBEB /* Pods-module_bluetooth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-module_bluetooth_Example.modulemap"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3A0736A52AD4295A47C6EC62DDDA1D89 /* module_bluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "module_bluetooth-umbrella.h"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		40C97D8D01E88432CB5FD501B260C6D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		46B7A9CA0C92FAD6AE1572576BCB22BB /* module_bluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module_bluetooth.modulemap; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		56EF24C57D517882C3C0190A17B60F8B /* module_bluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = module_bluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4C861A7F293E663B8DAB56EC41CF190D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		58C96F956782C67EC930371A68F686C5 /* Pods-module_bluetooth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-module_bluetooth_Tests-umbrella.h"; sourceTree = "<group>"; };
+		59266AB3D31F36D73CDC5F6DEE973164 /* module_bluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "module_bluetooth-prefix.pch"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FBCD281217F37C0A993C6251B28ADF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64066CE8D0323E1F7086F4CEC27FD7E2 /* ModuleBluetoothVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleBluetoothVC.m; path = module_bluetooth/Classes/ModuleBluetoothVC.m; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6EC787E74673853F044BB8670E00AB15 /* module_bluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "module_bluetooth-dummy.m"; sourceTree = "<group>"; };
+		706CD28471537F843673E3EA727AE161 /* module_bluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = module_bluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70CD35380B302D58FD92466AF5E70CCC /* Pods-module_bluetooth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-module_bluetooth_Tests-Info.plist"; sourceTree = "<group>"; };
-		72760EE80A827D0C9CA6E80E0AE77858 /* module_bluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_bluetooth.debug.xcconfig; sourceTree = "<group>"; };
-		786577698D2049E673DC07180F1F5A48 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = module_bluetooth/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7EE83F698E22A73F9CD88F3D75CE713D /* module_bluetooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "module_bluetooth-Info.plist"; sourceTree = "<group>"; };
 		7F95177B6913C9FBE742D78C28E9D2DA /* Pods-module_bluetooth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-module_bluetooth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8732B85B54ADE245BC84E8F9081B2845 /* Pods-module_bluetooth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-module_bluetooth_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8A9E89FA4605AE86C3FD3A471DF961BB /* Pods-module_bluetooth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-module_bluetooth_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E022B74CC6FE018D5D1CE6D8A9BE933 /* module_bluetooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "module_bluetooth-Info.plist"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9388FEB69546E4C08BBE5F23B124BE63 /* Pods-module_bluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-module_bluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9400B11631AF180EF24F132C5AD529B2 /* Pods-module_bluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-module_bluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,25 +106,25 @@
 		968813B7A1443A9F4AD4AD90A5002ACF /* Pods-module_bluetooth_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-module_bluetooth_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9B67F00AA307A37412FB0CCFEFCE36DF /* Pods-module_bluetooth_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-module_bluetooth_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1EF2FCAB30F1E1FE3DB76DC416A573 /* ModuleBluetoothVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleBluetoothVC.m; path = module_bluetooth/Classes/ModuleBluetoothVC.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A046B4703A1379A28661A6C3843C212E /* Pods-module_bluetooth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-module_bluetooth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ACA86D3238F0F1D655B26903B793E888 /* Pods-module_bluetooth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-module_bluetooth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE1ACEA38D9BA4F6C96DAB0C272AA614 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B34655582950D48EECDFD0CD6A156EA2 /* Pods-module_bluetooth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-module_bluetooth_Example-umbrella.h"; sourceTree = "<group>"; };
 		B4E92017B53DDBFF142819DE89839794 /* Pods-module_bluetooth_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-module_bluetooth_Tests"; path = Pods_module_bluetooth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5CD8385257377C85067E3BD4F44E1D6 /* module_bluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module_bluetooth.modulemap; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BBD8062EBAB8E890788B715CB1F98CFF /* module_bluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_bluetooth.release.xcconfig; sourceTree = "<group>"; };
+		BBBE4B0B600A2153559835AA87FB4899 /* module_bluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_bluetooth.release.xcconfig; sourceTree = "<group>"; };
 		BD89783EC9B1677E0B18C0ACBE58E6D9 /* Pods-module_bluetooth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-module_bluetooth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1BEBFB65EE3A6228AEEFB4BAA4B264D /* ModuleBluetoothVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleBluetoothVC.h; path = module_bluetooth/Classes/ModuleBluetoothVC.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D7F38C3108BD568D5B49890CA1AED9F4 /* ModuleBluetoothVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleBluetoothVC.h; path = module_bluetooth/Classes/ModuleBluetoothVC.h; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		D8B97C18716A4246D55852AF33423FB1 /* Pods-module_bluetooth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-module_bluetooth_Example-Info.plist"; sourceTree = "<group>"; };
-		DB3E07C72011EE6E1EBBA10DF19D517A /* module_bluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "module_bluetooth-prefix.pch"; sourceTree = "<group>"; };
 		DECE3FEED131D5EF4F32AACE816096A5 /* Pods-module_bluetooth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-module_bluetooth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F908184E28A3705A560EDF9382955520 /* module_bluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_bluetooth.debug.xcconfig; sourceTree = "<group>"; };
+		FC36675F5C24C97DA9381872B9B2280D /* module_bluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "module_bluetooth-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FF9BAAC38E4930CFA453E677ACFE8D16 /* Pods-module_bluetooth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-module_bluetooth_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +146,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1A3FDDAE973CA4FE61D405D66CFFCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7F0FD578A22E00440EA999A98FF56C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,17 +165,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E664A0918130CBE3B2446B65DD969F2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B96140027D0E836D353AB72CDAE3CBA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054D7075CA0C5461D35CD57F7E8377AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				455B06F64F60200598A824042B8C937E /* module_bluetooth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		208B0B9FA7C72B80B3FFBFCBE4201373 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,19 +187,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28BADC5E5033923CC08D0002C198F9D1 /* Support Files */ = {
+		455B06F64F60200598A824042B8C937E /* module_bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				B5CD8385257377C85067E3BD4F44E1D6 /* module_bluetooth.modulemap */,
-				6EC787E74673853F044BB8670E00AB15 /* module_bluetooth-dummy.m */,
-				7EE83F698E22A73F9CD88F3D75CE713D /* module_bluetooth-Info.plist */,
-				DB3E07C72011EE6E1EBBA10DF19D517A /* module_bluetooth-prefix.pch */,
-				0DDCC3F8B2E01534C6D6EB3508856865 /* module_bluetooth-umbrella.h */,
-				72760EE80A827D0C9CA6E80E0AE77858 /* module_bluetooth.debug.xcconfig */,
-				BBD8062EBAB8E890788B715CB1F98CFF /* module_bluetooth.release.xcconfig */,
+				C1BEBFB65EE3A6228AEEFB4BAA4B264D /* ModuleBluetoothVC.h */,
+				64066CE8D0323E1F7086F4CEC27FD7E2 /* ModuleBluetoothVC.m */,
+				63F9C77978CE46A8FD03D9D4E8776758 /* Pod */,
+				D298A7006B42F94A4C9896FCABCAD139 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/module_bluetooth";
+			name = module_bluetooth;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -234,17 +237,14 @@
 			path = "Target Support Files/Pods-module_bluetooth_Tests";
 			sourceTree = "<group>";
 		};
-		5D87A2025AF106C6442E797FFE001637 /* module_bluetooth */ = {
+		63F9C77978CE46A8FD03D9D4E8776758 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D7F38C3108BD568D5B49890CA1AED9F4 /* ModuleBluetoothVC.h */,
-				9F1EF2FCAB30F1E1FE3DB76DC416A573 /* ModuleBluetoothVC.m */,
-				786577698D2049E673DC07180F1F5A48 /* ReplaceMe.m */,
-				A77EB01F77B29FC184699E9DC1095A17 /* Pod */,
-				28BADC5E5033923CC08D0002C198F9D1 /* Support Files */,
+				4C861A7F293E663B8DAB56EC41CF190D /* LICENSE */,
+				706CD28471537F843673E3EA727AE161 /* module_bluetooth.podspec */,
+				AE1ACEA38D9BA4F6C96DAB0C272AA614 /* README.md */,
 			);
-			name = module_bluetooth;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		76A4D7C3EA7700724E95FB2288636952 /* Pods-module_bluetooth_Example */ = {
@@ -270,16 +270,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		A77EB01F77B29FC184699E9DC1095A17 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				40C97D8D01E88432CB5FD501B260C6D1 /* LICENSE */,
-				56EF24C57D517882C3C0190A17B60F8B /* module_bluetooth.podspec */,
-				5FBCD281217F37C0A993C6251B28ADF1 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A8323614A0FCC92189DA137414934445 /* Targets Support Files */ = {
@@ -321,27 +311,35 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		CE30C968D81F7434A0791D80830DD2A7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D87A2025AF106C6442E797FFE001637 /* module_bluetooth */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE30C968D81F7434A0791D80830DD2A7 /* Development Pods */,
+				054D7075CA0C5461D35CD57F7E8377AB /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				208B0B9FA7C72B80B3FFBFCBE4201373 /* Products */,
 				A8323614A0FCC92189DA137414934445 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D298A7006B42F94A4C9896FCABCAD139 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46B7A9CA0C92FAD6AE1572576BCB22BB /* module_bluetooth.modulemap */,
+				FC36675F5C24C97DA9381872B9B2280D /* module_bluetooth-dummy.m */,
+				8E022B74CC6FE018D5D1CE6D8A9BE933 /* module_bluetooth-Info.plist */,
+				59266AB3D31F36D73CDC5F6DEE973164 /* module_bluetooth-prefix.pch */,
+				3A0736A52AD4295A47C6EC62DDDA1D89 /* module_bluetooth-umbrella.h */,
+				F908184E28A3705A560EDF9382955520 /* module_bluetooth.debug.xcconfig */,
+				BBBE4B0B600A2153559835AA87FB4899 /* module_bluetooth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/module_bluetooth";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -374,20 +372,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		314AFC7E1F01D2E2E5818FB075F0D8C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64686FCB83EEF60944F65CBD993C28DF /* module_bluetooth-umbrella.h in Headers */,
+				36E428F823359A20EEAD8CFCA28852CB /* ModuleBluetoothVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		431641592FA0B2597FB293475746BCDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F918A779F453EC628CA38DB880729AA9 /* Pods-module_bluetooth_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A66BF0D45081682AEC79348AF4D83539 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				030FE4720091957EC6E43E7345E1853E /* module_bluetooth-umbrella.h in Headers */,
-				BF9A7289A9F8893745B709D5B8E68FDB /* ModuleBluetoothVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +419,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				31FABCA716BE4365F5D736F2270E019A /* PBXTargetDependency */,
+				DE2B4BA6966109760D6C2E1E214A7FD6 /* PBXTargetDependency */,
 			);
 			name = "Pods-module_bluetooth_Example";
 			productName = Pods_module_bluetooth_Example;
@@ -430,12 +428,12 @@
 		};
 		6DA8EB63FFEC307335FB53DBCF544267 /* module_bluetooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19260F764B03FCF6B34F80F5C14F0C7A /* Build configuration list for PBXNativeTarget "module_bluetooth" */;
+			buildConfigurationList = 5409B540194124D39FF69B8AC01AED04 /* Build configuration list for PBXNativeTarget "module_bluetooth" */;
 			buildPhases = (
-				A66BF0D45081682AEC79348AF4D83539 /* Headers */,
-				FC5C5D486FC7E7793845DFF614BB28DC /* Sources */,
-				E664A0918130CBE3B2446B65DD969F2C /* Frameworks */,
-				DA7DEF3C7554D3AAF21DE6B5442C5954 /* Resources */,
+				314AFC7E1F01D2E2E5818FB075F0D8C9 /* Headers */,
+				E90B76F62660BF30D83C29615E80EB2E /* Sources */,
+				D1A3FDDAE973CA4FE61D405D66CFFCAC /* Frameworks */,
+				0A666D0DDCD27C3EC521F82A0D9D084C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -458,8 +456,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				AF8ECF7B9390B760C092CFEC637E5785 /* PBXTargetDependency */,
-				008500EC91F7C77A54C80062F9962B29 /* PBXTargetDependency */,
+				0C7EB5F3EB3BC2A0F2BC117CDC7B00C3 /* PBXTargetDependency */,
+				81CA22A6E5E85E9D4BECE29BB62154A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-module_bluetooth_Tests";
 			productName = Pods_module_bluetooth_Tests;
@@ -522,14 +520,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+		0A666D0DDCD27C3EC521F82A0D9D084C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA7DEF3C7554D3AAF21DE6B5442C5954 /* Resources */ = {
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,6 +560,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E90B76F62660BF30D83C29615E80EB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6F4B1AB4D6A985B00176C03F8BD375 /* module_bluetooth-dummy.m in Sources */,
+				11E7655F2DFFD3E601F711F163BC391F /* ModuleBluetoothVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,36 +585,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC5C5D486FC7E7793845DFF614BB28DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AFABBF414907D4C2BE893F99014E584 /* module_bluetooth-dummy.m in Sources */,
-				F94D0CAFB22B47D903092FB17C630D95 /* ModuleBluetoothVC.m in Sources */,
-				4D794BB1F74D1075DABF9D8704BF3C39 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		008500EC91F7C77A54C80062F9962B29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-module_bluetooth_Example";
-			target = 5755A49EC94169CABC6C88E9308E0172 /* Pods-module_bluetooth_Example */;
-			targetProxy = CE43AC6B540299D1ADCBFA96773FE1A5 /* PBXContainerItemProxy */;
-		};
-		31FABCA716BE4365F5D736F2270E019A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = module_bluetooth;
-			target = 6DA8EB63FFEC307335FB53DBCF544267 /* module_bluetooth */;
-			targetProxy = C068CDEEF1F6B6328467025C2977B71E /* PBXContainerItemProxy */;
-		};
-		AF8ECF7B9390B760C092CFEC637E5785 /* PBXTargetDependency */ = {
+		0C7EB5F3EB3BC2A0F2BC117CDC7B00C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = CFC44DE9C2A63515E55BDAF3F2B83E38 /* PBXContainerItemProxy */;
+			targetProxy = ED8F1799FBCF48E5501054858AA15948 /* PBXContainerItemProxy */;
+		};
+		81CA22A6E5E85E9D4BECE29BB62154A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-module_bluetooth_Example";
+			target = 5755A49EC94169CABC6C88E9308E0172 /* Pods-module_bluetooth_Example */;
+			targetProxy = B9823692046730183E906F74F4F73523 /* PBXContainerItemProxy */;
+		};
+		DE2B4BA6966109760D6C2E1E214A7FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = module_bluetooth;
+			target = 6DA8EB63FFEC307335FB53DBCF544267 /* module_bluetooth */;
+			targetProxy = 6E30B94B5A52F18E683338AAD06DD662 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -642,37 +639,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		481EEBFBF376B578348718C9ADEDD5EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72760EE80A827D0C9CA6E80E0AE77858 /* module_bluetooth.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/module_bluetooth/module_bluetooth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/module_bluetooth/module_bluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/module_bluetooth/module_bluetooth.modulemap";
-				PRODUCT_MODULE_NAME = module_bluetooth;
-				PRODUCT_NAME = module_bluetooth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		525869088FDF549104D57BE24007A480 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -863,7 +829,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -898,6 +865,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9B0CB55895A2004AF5A4CB56D11711EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F908184E28A3705A560EDF9382955520 /* module_bluetooth.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/module_bluetooth/module_bluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/module_bluetooth/module_bluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/module_bluetooth/module_bluetooth.modulemap";
+				PRODUCT_MODULE_NAME = module_bluetooth;
+				PRODUCT_NAME = module_bluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C608AF5107D2169A5B7080F852EEB6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE4B0B600A2153559835AA87FB4899 /* module_bluetooth.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/module_bluetooth/module_bluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/module_bluetooth/module_bluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/module_bluetooth/module_bluetooth.modulemap";
+				PRODUCT_MODULE_NAME = module_bluetooth;
+				PRODUCT_NAME = module_bluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -965,50 +995,9 @@
 			};
 			name = Debug;
 		};
-		D7FF584E46CD85F4B5257B8F50803710 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBD8062EBAB8E890788B715CB1F98CFF /* module_bluetooth.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/module_bluetooth/module_bluetooth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/module_bluetooth/module_bluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/module_bluetooth/module_bluetooth.modulemap";
-				PRODUCT_MODULE_NAME = module_bluetooth;
-				PRODUCT_NAME = module_bluetooth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19260F764B03FCF6B34F80F5C14F0C7A /* Build configuration list for PBXNativeTarget "module_bluetooth" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				481EEBFBF376B578348718C9ADEDD5EB /* Debug */,
-				D7FF584E46CD85F4B5257B8F50803710 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1032,6 +1021,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5409B540194124D39FF69B8AC01AED04 /* Build configuration list for PBXNativeTarget "module_bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0CB55895A2004AF5A4CB56D11711EF /* Debug */,
+				C608AF5107D2169A5B7080F852EEB6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

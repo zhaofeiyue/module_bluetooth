@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  module_bluetooth: 61b8183024efab0a652de5c8ef9b5ade5c742beb
+  module_bluetooth: 9fb0c1fc8f544e741cabf61c437f55b7f7dd80ef
 
 PODFILE CHECKSUM: 796c5c5714d745b16838f0b3e16a0b777168af18
 
