@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - module_bluetooth (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - module_bluetooth (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  module_bluetooth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  module_bluetooth: 61b8183024efab0a652de5c8ef9b5ade5c742beb
+
+PODFILE CHECKSUM: 796c5c5714d745b16838f0b3e16a0b777168af18
+
+COCOAPODS: 1.15.2

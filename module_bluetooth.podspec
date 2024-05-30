@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1105331174@qq.com/module_bluetooth'
+  s.homepage         = 'https://github.com/zhaofeiyue/module_bluetooth'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1105331174@qq.com' => '1105331174@qq.com' }
-  s.source           = { :git => 'https://github.com/1105331174@qq.com/module_bluetooth.git', :tag => s.version.to_s }
+  s.author           = { 'zhaofeiyue' => '1105331174@qq.com' }
+  s.source           = { :git => 'https://github.com/zhaofeiyue/module_bluetooth.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

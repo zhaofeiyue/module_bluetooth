@@ -1,0 +1,22 @@
+{
+  "name": "module_bluetooth",
+  "version": "0.1.0",
+  "summary": "A short description of module_bluetooth.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1105331174@qq.com/module_bluetooth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1105331174@qq.com": "1105331174@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1105331174@qq.com/module_bluetooth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "module_bluetooth/Classes/**/*"
+}
