@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ModuleBluetoothVC : UIViewController
-
+- (void)testModule;
 @end
 
 NS_ASSUME_NONNULL_END

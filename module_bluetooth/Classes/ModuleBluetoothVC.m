@@ -24,6 +24,10 @@
     // Do any additional setup after loading the view.
 }
 
+
+- (void)testModule {
+    NSLog(@"蓝牙模块配置成功");
+}
 /*
 #pragma mark - Navigation
 

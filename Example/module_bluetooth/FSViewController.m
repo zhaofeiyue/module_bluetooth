@@ -7,7 +7,7 @@
 //
 
 #import "FSViewController.h"
-
+#import <ModuleBluetoothVC.h>
 @interface FSViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[ModuleBluetoothVC new] testModule];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
