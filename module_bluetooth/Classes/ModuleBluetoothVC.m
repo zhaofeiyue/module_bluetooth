@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view.
 }
 
-
+//版本迭代测试
 - (void)testModule {
     NSLog(@"蓝牙模块配置成功");// 版本变化
 }
