@@ -26,7 +26,7 @@
 
 
 - (void)testModule {
-    NSLog(@"蓝牙模块配置成功");
+    NSLog(@"蓝牙模块配置成功");// 版本变化
 }
 /*
 #pragma mark - Navigation
